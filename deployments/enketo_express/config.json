@@ -1,8 +1,8 @@
 {
-    "app name": "Enketo Express for KoBo Toolbox",
+    "app name": "MoA Data Entry",
     "linked form and data server": {
-        "name": "KoBo Toolbox",
-        "server url": "",
+        "name": "MoA Dashboard",
+        "server url": "dadmin.digitalgreen.org",
         "encryption key": "CHANGE ME!!"
     },
     "widgets": [
@@ -53,6 +53,10 @@
             "ua": "",
             "domain": ""
         }
+    },
+    "logo": {
+        "source": "logo_small.png",
+        "href": ""
     },
     "payload limit": "1mb",
     "text field character limit": 1000000,
