@@ -19,7 +19,7 @@ services:
     stop_grace_period: 5m
 
   mongo:
-    image: mongo:3.4
+    image: mongo:3.6
     hostname: mongo
     environment:
       - MONGO_DATA=/data/db
