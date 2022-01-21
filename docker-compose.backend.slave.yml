@@ -4,7 +4,7 @@ version: '2.2'
 services:
   postgres:
     extends:
-      file: docker-compose.backend.template.yml
+      file: docker-compose.backend.template.m
       service: postgres
     environment:
       - KOBO_POSTGRES_DB_SERVER_ROLE=slave
